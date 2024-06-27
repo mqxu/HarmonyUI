@@ -12,10 +12,10 @@ struct Index {
               url: 'pages/Weather'
             })
           })
-        Button('天气预报')
+        Button('抽奖')
           .onClick(() => {
             router.pushUrl({
-              url: 'pages/Weather'
+              url: 'pages/Lottery'
             })
           })
       }
