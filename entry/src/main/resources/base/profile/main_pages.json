@@ -6,6 +6,7 @@
     "pages/Cook",
     "pages/Loading",
     "pages/Moment",
-    "pages/Tabbar"
+    "pages/Tabbar",
+    "pages/Wechat"
   ]
 }

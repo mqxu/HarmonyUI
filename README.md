@@ -16,3 +16,9 @@
 
 ### 6. Tabbar 界面
 ![img_5.png](img_5.png)
+
+### 7. 仿微信界面
+![img_6.png](img_6.png)
+![img_7.png](img_7.png)
+![img_8.png](img_8.png)
+![img_9.png](img_9.png)

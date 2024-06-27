@@ -42,6 +42,12 @@ struct Index {
               url: 'pages/Tabbar'
             })
           })
+        Button('仿微信')
+          .onClick(() => {
+            router.pushUrl({
+              url: 'pages/Wechat'
+            })
+          })
       }
       .width('100%')
     }
