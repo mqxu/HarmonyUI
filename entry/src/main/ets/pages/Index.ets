@@ -18,6 +18,12 @@ struct Index {
               url: 'pages/Lottery'
             })
           })
+        Button('菜谱')
+          .onClick(() => {
+            router.pushUrl({
+              url: 'pages/Cook'
+            })
+          })
       }
       .width('100%')
     }
