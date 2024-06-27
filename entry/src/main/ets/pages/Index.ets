@@ -24,6 +24,12 @@ struct Index {
               url: 'pages/Cook'
             })
           })
+        Button('弹窗')
+          .onClick(() => {
+            router.pushUrl({
+              url: 'pages/Loading'
+            })
+          })
       }
       .width('100%')
     }

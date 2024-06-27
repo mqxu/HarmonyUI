@@ -3,6 +3,7 @@
     "pages/Index",
     "pages/Weather",
     "pages/Lottery",
-    "pages/Cook"
+    "pages/Cook",
+    "pages/Loading",
   ]
 }
