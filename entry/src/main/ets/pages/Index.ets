@@ -33,7 +33,7 @@ struct Index {
         Button('朋友圈')
           .onClick(() => {
             router.pushUrl({
-              url: 'pages/Loading'
+              url: 'pages/Moment'
             })
           })
         Button('Tabbar')

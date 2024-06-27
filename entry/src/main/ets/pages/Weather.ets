@@ -71,7 +71,7 @@ struct Weather {
 
       Flex({ direction: FlexDirection.Column }) {
         Stack({ alignContent: Alignment.Top }) {
-          Image('./images/weather.png')
+          Image('/images/weather.png')
             .width('100%')
             .height('100%')
 
@@ -81,7 +81,7 @@ struct Weather {
               justifyContent: FlexAlign.SpaceBetween,
               alignItems: ItemAlign.Center
             }) {
-              Image('./images/set.png')
+              Image('/images/set.png')
                 .width(20)
                 .height(20)
                 .onClick(() => {
@@ -93,7 +93,7 @@ struct Weather {
               Text('南京')
                 .fontColor(Color.White)
                 .fontSize(30)
-              Image('./images/search.png')
+              Image('/images/search.png')
                 .width(20)
                 .height(20)
             }
@@ -149,7 +149,7 @@ struct Weather {
                   Text(item['time'])
                     .fontColor(Color.Black)
                     .fontSize(15)
-                  Image('./images/icon.png')
+                  Image('/images/icon.png')
                     .width(40)
                     .height(40)
                     .objectFit(ImageFit.Auto)
@@ -203,7 +203,7 @@ struct Weather {
         .width(120)
         .height('100%')
 
-        Image('./images/add.png')
+        Image('/images/add.png')
           .width(70)
           .height(70)
           .position({ x: '75%', y: '62%' })
