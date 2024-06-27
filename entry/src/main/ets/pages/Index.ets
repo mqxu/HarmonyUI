@@ -30,6 +30,12 @@ struct Index {
               url: 'pages/Loading'
             })
           })
+        Button('朋友圈')
+          .onClick(() => {
+            router.pushUrl({
+              url: 'pages/Loading'
+            })
+          })
       }
       .width('100%')
     }
