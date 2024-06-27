@@ -48,6 +48,12 @@ struct Index {
               url: 'pages/Wechat'
             })
           })
+        Button('仿QQ')
+          .onClick(() => {
+            router.pushUrl({
+              url: 'pages/QQ'
+            })
+          })
       }
       .width('100%')
     }
