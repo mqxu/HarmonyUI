@@ -13,3 +13,6 @@
 
 ### 5. 朋友圈界面
 ![img_4.png](img_4.png)
+
+### 6. Tabbar 界面
+![img_5.png](img_5.png)

@@ -36,6 +36,12 @@ struct Index {
               url: 'pages/Loading'
             })
           })
+        Button('Tabbar')
+          .onClick(() => {
+            router.pushUrl({
+              url: 'pages/Tabbar'
+            })
+          })
       }
       .width('100%')
     }

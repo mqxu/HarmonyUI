@@ -5,6 +5,7 @@
     "pages/Lottery",
     "pages/Cook",
     "pages/Loading",
-    "pages/Moment"
+    "pages/Moment",
+    "pages/Tabbar"
   ]
 }
